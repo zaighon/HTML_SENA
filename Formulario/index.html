@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formula</title>
+  </head>
+  <body>
+    <main>
+      <section class="border">
+        <fieldset>
+          <legend>formulario contacto</legend>
+
+          <form method="get">
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Escribe tu nombre"
+              pattern="[a-z]{3,6}"
+            />
+            <br />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ingresar"
+              req
+            /><br />
+
+            <label for="edad-for-label">Edad: </label>
+            <input type="number" name="edad" id="edad-for-label" /><br />
+
+            <label for="fecha-de-nacimiento">Fecha de nacimiento: </label>
+            <input type="date" name="fecha" id="fecha-de-nacimiento" /><br />
+
+            <label for="numer-telefono">Numero de teléfono:</label>
+            <input
+              type="number"
+              name="telefono"
+              id="number-telefono"
+            /><br /><br />
+
+            <label for="sexo">Sexo:</label><br />
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" id="masculino" value="masculino" />
+
+            <label for="femenino">Femenino</label>
+            <input
+              type="radio"
+              name="sexo"
+              id="femenino"
+              value="femenino"
+            /><br /><br />
+
+            <label for="musica-favorita">Musica favorita:</label><br />
+            <label for="pop">Pop</label>
+            <input type="checkbox" name="music" id="rock" value="rock" />
+            <label for="rock">Rock</label>
+            <input type="checkbox" name="music" id="pop" value="pop" />
+            <label for="vallenato">Vallenato</label>
+            <input
+              type="checkbox"
+              name="music"
+              id="vallenato"
+              value="vallenato"
+            />
+            <label for="baladas">Baladas</label>
+            <input type="checkbox" name="music" id="baladas" value="baladas" />
+            <label for="popular">Popular</label>
+            <input type="checkbox" name="music" id="popular" value="popular" />
+            <label for="ranchera">Ranchera</label>
+            <input
+              type="checkbox"
+              name="music"
+              id="ranchera"
+              value="ranchera"
+            /><br />
+
+            <label for="password"><br />Password:</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="ingresar"
+            /><br /><br />
+
+            <textarea name="" id="" cols="30" rows="10"></textarea><br />
+
+            <input type="submit" value="Send" />
+            <input type="reset" value="reset" />
+          </form>
+        </fieldset>
+      </section>
+    </main>
+  </body>
+</html>
