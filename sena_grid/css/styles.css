@@ -1,0 +1,220 @@
+.body1{
+    display: grid;
+    background-color: rgb(131, 189, 173);
+    grid-template-columns: auto;
+    grid-template-rows: 40px 500px 40px;
+    
+    border: 1px solid black;
+    font-size: 9px;
+    font-family: 'Trebuchet MS';
+    
+}
+.portada{
+    display: grid;
+    grid-template-columns: 80px auto auto;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+}
+.inicio{
+    display: grid;
+    grid-template-columns: 20px 50px;
+    width: 50px;
+    height: 20px;
+    align-items: center;
+}
+.caja1{
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    text-align: center;
+    color: rgb(0, 60, 255); 
+}
+.c2{
+    border-left: 2px solid black;
+}
+.tienda{
+    display: grid;
+    grid-template-columns: 20px 20px 40px;
+    justify-content: end;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+img{
+    display: grid;
+    width: 14px;
+    height: auto;
+    padding: 5px;
+}
+.centro{
+    display: grid;
+    grid-template-rows: 30% 30px auto;
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+    place-items: center;
+    border-top: 1px solid black;
+}
+.caja2{
+    display: grid;
+    grid-template-columns: 27% 40% 32%;
+    width: 97%;
+    height: 90%;
+    place-items: center;
+    background-color: rgb(212, 212, 212);
+
+}
+.box1 {
+    display: grid;
+    grid-template-columns: auto ;
+    background-color: transparent;
+    text-align: center;
+    align-items: center;
+    height: 90%;
+    width: 80%;
+}
+.titulo{
+    font-weight: bold;
+    font-size: 20px;
+}
+.text {
+    width: 50px;
+    text-align: justify;
+}
+button {
+    color:black;
+    font-size: 9px;
+    width: 150px;
+    border-color: 2px solid black;
+}
+.box2{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    height: 90%;
+    width: 90%;
+}
+.box3 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+    border: 2px solid black;
+    align-items: start;
+    height: 90%;
+    width: 80%;
+}
+.menu {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    text-align: left;
+    align-items: right;
+    /* border: 1px solid black; */
+    justify-content: start;
+    width: 90%;
+   
+}
+.caja3{
+    display: grid;
+    grid-template-columns: auto;
+    border-top: 2px solid black;
+    background-color: rgb(212, 212, 212);
+    width: 97%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+.caja4{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    background-color:white;
+    width: 97%;
+    height: 100%;
+    align-items: center;
+    place-items: center;
+    column-gap: 10px;
+}
+.cajas8{
+    display: grid;
+    place-items: center;
+    grid-template-rows:  70% 20px 20px;
+    margin: 0 auto;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(212, 212, 212);
+}
+.item{
+    display: grid;
+    background-color:white;
+    border: 2px solid black;
+    height: 88%;
+    width: 90%;
+}
+.info1 {
+    display: grid;
+    grid-template-rows: 90%;
+    height: 15px;
+    width: 100px;
+    text-align: center;
+}
+.info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.box{
+    display: grid;
+    background-color: white;
+    height: 160px;
+    width: 90%;
+}
+.abajo {
+    display: grid;
+    background-color:  rgb(212, 212, 212);
+    grid-template-columns: 110px auto 250px;
+    grid-template-rows: 40px;
+    align-items: center;
+}
+.tarjetas {
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.piedepagina {
+    display: grid;
+    padding: 8px;
+    align-items: center;
+}
+.texto {
+    display: grid;
+    grid-template-columns: 150px;
+    height: 10px;
+    font-size: 9px;
+    align-items: start;
+
+}
+.botonsuscribir {
+    display: grid;
+    grid-template-columns: 105px 80px;
+    text-align: center;
+    align-items: center;
+    font-size: 9px;
+}
+.btn{
+    display: grid;
+    width: 50px;
+}
+.campo {
+    width: 100px;
+    height: 10px;
+}
